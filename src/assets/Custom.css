@@ -1,0 +1,47 @@
+
+body{
+  background-color: aqua;
+}
+
+.wrappingContainer{
+  display: flex;
+  justify-content: center;
+}
+.mainContainer{
+  width: 400px;
+
+}
+
+.inputContainer{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid chartreuse;
+  padding: 30px;
+  background-color:black;
+  border-radius: 10px;
+}
+
+.addBtn{
+  margin-left: 5px;
+}
+#hr{
+  font-weight: bold;
+  background-color: white;
+}
+.outputContainer{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deleteBtn{
+  margin-bottom: 10px;
+
+}
+.output{
+  background-color: aliceblue;
+  color: black;
+}
