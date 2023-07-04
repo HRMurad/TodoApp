@@ -56,11 +56,11 @@ const Try = () => {
 
                 <div className="outputContainer">
                   {todos.map((list, i) => (
-                    <div>
+                    <div key={i}>
                       <div className="output"> {list.inputText} </div>
                       <button
                         className="deleteBtn btn btn-primary"
-                        onClick={onClickDelete}
+                        onClick={() => onClickDelete(i)}
                       >
                         Delete
                       </button>
